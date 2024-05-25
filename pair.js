@@ -77,7 +77,7 @@ router.get('/', async (req, res) => {
                
                 const string_session = mega_url.replace('https://mega.nz/file/', '')
 
-               const sid = "PRABATH-MD~" + string_session
+               const sid = "MXC~" + string_session
     
                const dt = await XeonBotInc.sendMessage(user_jid, {
 
@@ -89,11 +89,7 @@ let eco = '*`'
 let oce = '`*'
 let oc = '>'
 
-let desc = `⚠️ ${eco}Do not share this code with others. Use this to create the PRABATH-MD bot.${oce}
-
-${oc} 🎉 *Github:* https://github.com/prabathLK/PRABATH-MD
-
-${oc} 🔔 *Our Channel:* https://whatsapp.com/channel/0029Va5dJKyJpe8oqDXUjI3x`		
+let desc = `⚠️ ${eco}Do not share this code with others. Use this to create the MXC bot.${oce}`		
 
 XeonBotInc.sendMessage(user_jid, {
 
